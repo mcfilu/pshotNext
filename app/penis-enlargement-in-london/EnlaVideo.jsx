@@ -4,7 +4,7 @@ import Link from 'next/link'
 import LiteYouTubeEmbed from "react-lite-youtube-embed"
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 
-const PshotVideo = () => {
+const EnlaVideo = () => {
   return (
     <div className={`bg- flex flex-col items-center justify-center w-full md:p-[2vh] md:py-0 md:pr-0 `}>
       {/* <p className={`text-gold1 text-[5vh] text-center`}>Vampire Breastlift Explained</p>
@@ -59,4 +59,4 @@ const PshotVideo = () => {
   )
 }
 
-export default PshotVideo
+export default EnlaVideo

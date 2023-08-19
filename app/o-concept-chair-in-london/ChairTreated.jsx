@@ -52,7 +52,7 @@ const ChairTreated = () => {
     <div  className={`relative flex flex-col     mt-[5vh] md:mt-[0px] hover:bg-opacity-80  hover:ease-in-out duration-500 items-center`}>
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
-            <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw] realative`}>
+            <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw] relative`}>
             <Image src={incontinence} className={`w-full h-full object-contain`} object-fit="cover" fill={true} alt=""></Image>
             </div>
             

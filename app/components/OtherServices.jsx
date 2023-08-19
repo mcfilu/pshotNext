@@ -8,7 +8,7 @@ import chair3 from '../../public/chair3.jpg';
 
 
 
-const PshotServices = () => {
+const OtherServices = () => {
     
   return (
     
@@ -90,7 +90,7 @@ const PshotServices = () => {
   )
 }
 
-export default PshotServices
+export default OtherServices
 
 
 

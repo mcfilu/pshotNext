@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const OconceptOpening = () => {
   return (
     <div className={`flex w-full flex-row md:min-h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
-        <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
+        <div className={`hidden md:flex w-[45%] h-[100%] flex items-center relative`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
             <Image className={`w-screen h-screen object-cover`} fill={true} object-fit="cover" src="/sherif_new.jpeg" alt=""></Image>
         </div>

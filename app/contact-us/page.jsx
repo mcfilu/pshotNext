@@ -15,11 +15,14 @@ import ContactBooking from './ContactBooking'
 import ContactPersonalised from './ContactPersonalised'
 import ContactOpening from './ContactOpening'
 
+export const metadata = {
+    title: 'Contact P-Shot | Sexual Aesthetics Doctor in UK',
+    description : 'Enhance sexual aesthetics with P-Shot! Contact our UK-based doctor for sexual treatments. Reclaim your confidence and satisfaction today. Call +44 (0)20 3006 8459.',
+  }
 
 export default function Contact() {
   return (
     <div className={`bg-primary w-full`}>
-        
 
         <div className={`fixed z-30 `}>
             <Navbar/>

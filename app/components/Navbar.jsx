@@ -1,115 +1,13 @@
-// import React from 'react'
-// import { useState } from 'react'
-// import { Links } from '../constants'
-// import { logo_no_border, close, menu, oshot_logo} from '../assets'
-// import { Link } from 'react-router-dom'
-
-
-
-
-// const Navbar = () => {
-//     const active_path = window.location.pathname;
-//     const w_height = window.screen.height;
-//     const to_start = () => {
-//       if (active_path === '/contact') {
-//         return true;
-//       }
-//       else {
-//         return false
-//       }
-//     }
-//     const[color, setColor] = React.useState(to_start)
-
-    
-//     const changeColor = () => {
-//       if (active_path === '/contact') {
-        
-//       }
-//       else {
-//         if(window.scrollY >= w_height*0.3){
-//             setColor(true)
-//         }else{
-//             setColor(false)
-//         }
-//       }
-//     }
-//     window.addEventListener('scroll', changeColor)
-//     const [toggle, setToggle] = useState(false);
-
-//   return (
-//     <nav className = {`w-full flex py-[2.4vh] justify-between items-center fixed pl-[3vh] pr-[3vh] ${color ? 'bg-black bg-opacity-95 h-[11.3vh]' : ''} ease-in-out duration-500`}>
-//         <Link href="/"><img src="/logo_no_border.svg" alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} h-[10vh] ease-in-out duration-500`}></img></Link>
-
-//             <ul className="list-none md:flex hidden items-center justify-center flex-1">
-//             {Links.map((nav,index) => (
-//                 <li
-//                 key = {nav.id}
-//                 className={`hover-underline-animation flex font-main font-normal cursor-pointer ${color ? 'text-[1.3vw]' : 'text-[1.4vw]'} ease-in-out duration-500 mx-[1.7vh] py-[1.7vh]  ${active_path=== nav.link ? 'text-gold1' : 'text-white'} hover:text-gold1 `}   
-//                 >
-//                 {/* <a href={`#${nav.id}`}> {nav.title} </a> */}
-//                 <Link className={`flex items-center`} to={`${nav.link}`}>{nav.title}</Link>
-//                 </li>
-//             ))}
-//             </ul>
-
-//             {/* <img src={tel_logo}></img> */}
-//             <div className={`flex ${color ? 'w-[29.3vh]' : 'w-[30.8vh]'} md:flex hidden items-center justify-end ease-in-out duration-500`}>
-//             <Link href="/"><img src={oshot_logo} alt="yours lawfully logo" className={`${color ? 'w-[18.3vh]' : 'w-[23.3vh]'} ${color ? 'h-[8.5vh]' : 'h-[10vh]'} ease-in-out duration-500`}></img></Link>
-//             </div>
-
-
-//             <div  className="md:hidden flex flex-1 justify-end items-center">
-//             <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
-//               <div className={`${toggle ? 'flex' : 'hidden'} flex-col p-6 bg-black absolute top-0 left-0 h-[100vh] w-[100vw]`}>
-//                 <div className={`flex flex-row justify-between items-center`}>
-//                   <Link href="/"><img src="/logo_no_border.svg" alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
-//                   <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
-//                 </div>
-//                 <div className={`flex flex-col justify-center flex-1`}>
-
-                
-//                   <ul className="list-none flex flex-col justify-center items-center ">
-//                     {Links.map((nav,index) => (
-//                       <li
-//                         key = {nav.id}
-//                         className={`font-main font-normal cursor-pointer text-[3vh] ${index === Links.length - 1 ? 'mr-0' : 'mb-4'} text-white`}   
-//                       >
-
-
-//                         <Link className={`flex items-center`} to={`${nav.link}`}>{nav.title}</Link>
-//                       </li>
-//                     ))}
-//                   </ul>
-//                   <button className={`text-gold1 ${color ? 'text-[3vh]' : 'text-[3vh]'} font-main  p-[1vh] hover:bg-white hover:text-gold1 ease-in-out duration-500 mt-[10vh]`}>+44 (0)20 3006 8459</button>
-//                 </div>
-//               </div>
-//             </div>
-            
-
-//     </nav>
-//   )
-// }
-
-// export default Navbar
-
-
 'use client'
 import React from 'react';
 
 import { useState, useEffect } from 'react';
-import { Links, otherLinks } from '../constants/index.js';
+import {navLinks, otherLinks } from '../constants/index.js';
 import Link from 'next/link.js';
-// import img from 'next/img.js';
 import close from '../../public/close.svg';
 import menu from '../../public/menu.svg';
 
-// import { Links } from '../constants/index.js'
-// import { logo_no_border, close, menu, oshot_logo} from '@/public/index.js'
-// import { logo_no_border } from '@/public/index.js'
-// import { logo_no_border } from '@/public/index.js'
-// import { close } from '@/public/index.js'
-// import { Link } from 'react-router-dom'
-// import close from '/close.svg'
+
 
 
 
@@ -152,7 +50,7 @@ const Navbar = () => {
         <Link href="/"><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
 
             <ul className="list-none md:flex hidden items-center justify-center flex-1 ">
-            {Links && Links.map((nav,index) => (
+            {navLinks && navLinks.map((nav,index) => (
                 <li
                 key = {nav.id}
                 onMouseOver={() => nav.id === "other-tratments" ? setOthers(true) : null}
@@ -170,8 +68,8 @@ const Navbar = () => {
             <button className={`text-gold1 ${color ? 'text-[1.3vw]' : 'text-[1.4vw]'}   p-[1vh] hover:bg-white hover:text-gold1 ease-in-out duration-500 border-2 border-gold1 font-main`}><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 3006 8459">+44 (0)20 3006 8459 </a></button>
 
             </div> */}
-            <div className={`flex ${color ? 'w-[29.3vh]' : 'w-[30.8vh]'} md:flex hidden items-center justify-end ease-in-out duration-500 relative`}>
-            <Link href="/"><img src="/oshot_logo.svg" object-fit="cover" fill={true} alt="yours lawfully logo" className={`${color ? 'w-[18.3vh]' : 'w-[23.3vh]'} ${color ? 'h-[8.5vh]' : 'h-[10vh]'} ease-in-out duration-500`}></img></Link>
+            <div className={`flex ${color ? 'w-[18.3vh]' : 'w-[23.3vh]'} md:flex hidden items-center justify-end ease-in-out duration-500 relative`}>
+            <Link href="/"><img src="/pshot_goldlogo.svg" object-fit="cover" fill={true} alt="yours lawfully logo" className={`${color ? 'w-[18.3vh]' : 'w-[23.3vh]'} ${color ? 'h-[8.5vh]' : 'h-[10vh]'} ease-in-out duration-500`}></img></Link>
             </div>
 
         </div>
@@ -205,12 +103,12 @@ const Navbar = () => {
 
                 
                   <ul className="list-none flex flex-col justify-center items-center ">
-                    {Links && Links.map((nav,index) => (
+                    {navLinks && navLinks.map((nav,index) => (
                       <React.Fragment key={nav.id}>
                         <hr className={`border-gold1  w-[80%] mx-auto my-[1vh]`}></hr>
                       <li
                         key = {nav.id}
-                        className={`font-main font-normal cursor-pointer text-[3vh] ${index === Links.length - 1 ? 'mr-0' : ''} text-white`}   
+                        className={`font-main font-normal cursor-pointer text-[3vh] ${index === navLinks.length - 1 ? 'mr-0' : ''} text-white`}   
                       >
 
 

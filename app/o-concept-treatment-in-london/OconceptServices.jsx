@@ -1,16 +1,18 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
-import { chair1, shockwave1, oshot1, chair3, pshot1, ed, renova, diet, endo} from '../assets';
+import React from 'react'
+import Link from 'next/link';
+import Image from 'next/image';
+import shockwave1 from '../../public/shockwave1.jpg';
+import oshot1 from '../../public/oshot1.jpg';
+import chair1 from '../../public/chair1.jpg';
+import chair3 from '../../public/chair3.jpg';
+import ed from '../../public/ed.jpg';
+import renova from '../../public/renova.jpg';
+import diet from '../../public/diet.jpg';
 
 
 
 const OconceptServices = () => {
-    const [hov1, setHove1] = useState(false);
-    const [hov2, setHove2] = useState(false);
-    const [hov3, setHove3] = useState(false);
-    const [hov4, setHove4] = useState(false);
-    const [hov5, setHove5] = useState(false);
-    const [hov6, setHove6] = useState(false);
+    
   return (
     
     <div className={`flex flex-col  w-full pl-[4%] pr-[4%]`}>
@@ -21,10 +23,10 @@ const OconceptServices = () => {
     
         
         
-        <div  onMouseEnter={() => setHove1((prev) => !prev)} onMouseLeave={() => setHove1((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
-        <Link to={`/o-concept-chair-in-london`}>
+        <div   className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
+        <Link href="/o-concept-chair-in-london">
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov1 ? 'scale-125' : ''}`} src={chair3}></img>
+            <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={chair3}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>O-Concept Chair</h1>
                     <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>For Him</h1>
@@ -41,17 +43,17 @@ const OconceptServices = () => {
         </div>
         
     
-        <div onMouseEnter={() => setHove2((prev) => !prev)} onMouseLeave={() => setHove2((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <Link to={`/shockwave-therapy-in-london`}>
-        <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov2 ? 'scale-125' : ''}`} src={shockwave1}></img>
+        <div  className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
+        <Link href="/shockwave-therapy-in-london">
+        <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
+        <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={shockwave1}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>O-Concept Shockwave</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>For Him</h1>
                 </div>
             </div>
             <div className={`relative items-center flex flex-col w-full  py-[1vh] px-[2vh]`}>
-                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Breast enlargement with fat is a cosmetic procedure that harvests fat from other parts of your body, typically the abdomen, hips, thighs, or buttocks and transfers it into the breast area where it can be used to increase the size and shape of the natural breast.</p>
+                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>The O-Concept Shockwave for him is an advanced procedure designed to address various concerns related to male sexual wellness. This non-invasive treatment utilizes shockwave technology to stimulate blood flow and tissue regeneration in the penile area.</p>
                 
                 
             </div>
@@ -61,18 +63,17 @@ const OconceptServices = () => {
         </div>
         
     
-        <div onMouseEnter={() => setHove3((prev) => !prev)} onMouseLeave={() => setHove3((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <Link to={`/`}>
+        <div  className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
+        <Link href="/penis-enlargement-in-london">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <img className={` flex w-full h-full  ease-in-out duration-500 object-cover ${hov3 ? 'scale-125' : ''}`} src={pshot1}></img>
+        <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot1}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>The P-Shot</h1>
-                    <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Penis PRP</h1>
+                    <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Penis</h1>
+                    <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Enlargement</h1>
                 </div>
             </div>
             <div className={` flex flex-col w-full  pt-[2vh] pb-[2.5vh] px-[1vh] md:px-[2vh]`}>
-                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>P-Shot® is a part of the ground-breaking treatment, The O Concept™. The P-Shot® procedure works by using the body’s natural ability to heal andrejuvenate itself by injecting growth factor rich Platelet Rich Plasma (PRP) into the
-penis to stimulate a regenerative process.</p>
+                <p className={`flex text-black text-[2.1vh] text-justify font-main`}>Penis enlargement with fat, also known as penile augmentation or phalloplasty, is a cosmetic procedure that involves harvesting fat from other parts of the body, such as the abdomen, thighs, or buttocks, and transferring it into the penile area. This innovative treatment aims to increase the size and shape of the natural penis.</p>
                 
             </div>
             {/* <Link to={`/breast-reduction`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></Link> */}
@@ -90,10 +91,10 @@ penis to stimulate a regenerative process.</p>
     
         
         
-        <div  onMouseEnter={() => setHove4((prev) => !prev)} onMouseLeave={() => setHove4((prev) => !prev)} className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
-        <Link to={`/o-concept-chair-in-london`}>
+        <div  className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
+        <a href="https://www.drswclinics.co.uk">
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <img className={`flex w-full h-full  ease-in-out duration-500 object-cover ${hov4 ? 'scale-125' : ''}`} src={ed}></img>
+            <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={ed}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>O-Concept</h1>
                     <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>Endo-test</h1>
@@ -106,14 +107,14 @@ penis to stimulate a regenerative process.</p>
             </div>
             {/* <Link to={`/breast-augmentation`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></Link> */}
             {/* <button className={`absolute -bottom-[6vh] text-[3vh] px-[1vh]  bg-black border-gold1 border-2 text-gold1 hover:bg-white  md:mt-[0px]`}>Read More</button> */}
-        </Link>
+        </a>
         </div>
         
     
-        <div onMouseEnter={() => setHove5((prev) => !prev)} onMouseLeave={() => setHove5((prev) => !prev)} className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <Link to={`/shockwave-therapy-in-london`}>
+        <div className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
+        <a href="https://www.drswclinics.co.uk">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <img className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 ${hov5 ? 'scale-125' : ''}`} src={renova}></img>
+        <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={renova}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Renova</h1>
                     {/* <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>For Him</h1> */}
@@ -129,14 +130,14 @@ effects, by using linear soundwave technology.</p>
             </div>
             {/* <Link to={`/breast-fat-enlargement`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></Link> */}
             {/* <button className={`absolute -bottom-[6vh] text-[3vh] px-[1vh]  bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh] md:mt-[0px]`}>Read More</button> */}
-        </Link>
+        </a>
         </div>
         
     
-        <div onMouseEnter={() => setHove6((prev) => !prev)} onMouseLeave={() => setHove6((prev) => !prev)} className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
-        <Link to={`/`}>
+        <div  className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
+        <a href="https://www.drswclinics.co.uk">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <img className={` flex w-full h-full  ease-in-out duration-500 object-cover ${hov6 ? 'scale-125' : ''}`} src={diet}></img>
+        <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={diet}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Diet</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Revision</h1>
@@ -151,7 +152,7 @@ specific nutritionists to ensure that you receive the best advice.</p>
             </div>
             {/* <Link to={`/breast-reduction`}><button className={`p-[1vh] pl-[2vh] pr-[2vh] absolute -bottom-[2.2vh] bg-white text-black text-[2vh] bg-opacity left-1/2  transform -translate-x-1/2  hover:bg-gold1 hover:text-white`}>READ MORE</button></Link> */}
             
-        </Link>
+        </a>
         </div>
         
         

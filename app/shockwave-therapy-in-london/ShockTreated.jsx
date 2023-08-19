@@ -3,6 +3,7 @@ import erectile from '../../public/erectile.png';
 import ejaculation from '../../public/ejaculation.png';
 import incontinence from '../../public/incontinence.png';
 import size from '../../public/size.png';
+import orgasm from '../../public/orgasm.png';
 import Image from 'next/image';
 
 const ShockTreated = () => {

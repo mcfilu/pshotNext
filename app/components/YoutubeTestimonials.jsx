@@ -59,23 +59,22 @@ const YoutubeTestimonials = () => {
         <h1 className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</h1>
         
       <div className=" w-[95%] mx-auto my-auto ">
-        
-        <Slider {...settings}>
+      <Slider {...settings}>
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
+                {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/zs9UUeMxCdA" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
                 <LiteYouTubeEmbed
-                id="ivLasdoDESo"
+                id="zs9UUeMxCdA"
                 title="O-Shot youtube testimonial"
                 />
-                {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/ivLasdoDESo"  title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
-                <p className={`text-white text-center text-[1.9vh] font-main`}>This treatment definitely helps, it helped me so much. Thank you Dr. Wakil.</p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>ASHLEY</h1>
-                <h3 className={`text-white text-[1.9vh] text-center font-main`}>68 Years Old, UK</h3>
+                <p className={`text-white text-center text-[1.9vh] font-main`}>Dr. Wakil revolutionised my sexual life and relationship with my wife in just 8 weeks.</p>
+                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>HAROLD</h1>
+                <h3 className={`text-white text-[1.9vh] text-center font-main`}>67 Years Old, UK</h3>
               </div>
             </div>
           </div>
@@ -85,18 +84,18 @@ const YoutubeTestimonials = () => {
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
-              <LiteYouTubeEmbed
-                id="690efqtUCOk"
+                {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/DQu0ktFcbbw" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
+                <LiteYouTubeEmbed
+                id="DQu0ktFcbbw"
                 title="O-Shot youtube testimonial"
                 />
-                {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/690efqtUCOk" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
-                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
-                <p className={`text-white text-center text-[1.9vh] font-main`}>I couldn't be happier with the results. Now I feel like a real women. Fantastic!</p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>MARYLIN</h1>
-                <h3 className={`text-white text-[1.9vh] text-center font-main`}>43 Years Old, UK</h3>
+                <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[2vh] md:text-[1.3vw]`}></i>
+                <p className={`text-white text-center text-[1.9vh] font-main`}>The O Concept™ is the best solution out there</p>
+                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>DAVE</h1>
+                <h3 className={`text-white text-[1.9vh] text-center font-main`}>29 Years Old, UK</h3>
               </div>
             </div>
           </div>
@@ -104,18 +103,18 @@ const YoutubeTestimonials = () => {
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
-              <LiteYouTubeEmbed
-                id="9CJmkxKmLDE"
+                {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/RJn1iAiFCpI" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
+                <LiteYouTubeEmbed
+                id="RJn1iAiFCpI"
                 title="O-Shot youtube testimonial"
                 />
-                {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/9CJmkxKmLDE" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
-                <p className={`text-white text-center text-[1.9vh] font-main`}>I am very pleasently suprised with the results. </p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>FABIA</h1>
-                <h3 className={`text-white text-[1.9vh] text-center font-main`}>64 Years Old, UK</h3>
+                <p className={`text-white text-center text-[1.9vh] font-main`}>Wow, what can I say? Fantastic! </p>
+                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>KARIM</h1>
+                <h3 className={`text-white text-[1.9vh] text-center font-main`}>62 Years Old, UK</h3>
               </div>
             </div>
           </div>
@@ -123,28 +122,26 @@ const YoutubeTestimonials = () => {
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
+              {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/3rR17uynpWk" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               <LiteYouTubeEmbed
-                id="my6HYMq2x_U"
+                id="3rR17uynpWk"
                 title="O-Shot youtube testimonial"
                 />
-              {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/my6HYMq2x_U" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
-                <p className={`text-white text-center text-[1.9vh] font-main`}>O-Shot is realy the only thing that worked for me!</p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>SAMANTHA</h1>
-                <h3 className={`text-white text-[1.9vh] text-center font-main`}>40 Years Old, UK</h3>
+                <p className={`text-white text-center text-[1.9vh] font-main`}>My sexual life is so much better</p>
+                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>MIKE</h1>
+                <h3 className={`text-white text-[1.9vh] text-center font-main`}>57 Years Old, UK</h3>
               </div>
             </div>
           </div>
           
           
-          {/* <div className="h-64   mx-[1vh]">sfasdf</div>
-          <div className="h-64   mx-[1vh]">safasd</div>
-          <div className="h-64   mx-[1vh]">asjdfk</div>
-          <div className="h-64   mx-[1vh]">asjdfk</div> */}
+          
         </Slider>
+        
       </div>
   </div>
   )

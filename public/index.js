@@ -41,8 +41,8 @@ import boobs4After from './boobs4After.jpeg';
 import icon1 from './icon1.png';
 import icon2 from './icon2.png';
 import icon3 from './icon3.png';
-// import BloodCells from './BloodCells.mp4';
-// import wow1 from './wow1.avif';
+import BloodCells from './BloodCells.mp4';
+import wow1 from './wow1.avif';
 import wow2 from './wow2.jpeg';
 import wow3 from './wow3.webp';
 import wow4 from './wow4.webp';
@@ -133,71 +133,6 @@ import shockwave3 from './shockwave3.jpg';
 import ed from './ed.jpg';
 import renova from './renova.jpg';
 import diet from './diet.jpg';
-import oshot_image1 from './oshot1.jpeg';
-import oshot_image2 from './oshot2.jpeg';
-import oshot_image3 from './oshot3.jpeg';
-import oshot_image4 from './oshot4.jpg';
-import oshot_image5 from './oshot5.jpg';
-import oshot_image6 from './oshot6.jpg';
-import libido from './libido.png';
-import oshot_before1 from './oshot_before1.jpeg';
-import oshot_after1 from './oshot_after1.jpeg';
-import oshot_before2 from './oshot_before2.jpeg';
-import oshot_after2 from './oshot_after2.jpeg';
-import oshot_before3 from './oshot_before3.jpeg';
-import oshot_after3 from './oshot_after3.jpeg';
-import oshot_before4 from './oshot_before4.jpeg';
-import oshot_after4 from './oshot_after4.jpeg';
-import oshot_before5 from './oshot_before5.jpeg';
-import oshot_after5 from './oshot_after5.jpeg';
-import oshot_before6 from './oshot_before6.jpeg';
-import oshot_after6 from './oshot_after6.jpeg';
-import oshot_before7 from './oshot_before7.jpeg';
-import oshot_after7 from './oshot_after7.jpeg';
-import oshot_before8 from './oshot_before8.jpeg';
-import oshot_after8 from './oshot_after8.jpeg';
-import oshot_before9 from './oshot_before9.jpeg';
-import oshot_after9 from './oshot_after9.jpeg';
-import oshot_before10 from './oshot_before10.jpeg';
-import oshot_after10 from './oshot_after10.jpeg';
-import oshot_before11 from './oshot_before11.jpeg';
-import oshot_after11 from './oshot_after11.jpeg';
-import thermiva from './thermiva.jpg';
-import size from './size.png';
-import pelvic from './pelvic.png';
-import vagina from './vagina.png';
-import labia_before1 from './labia_before1.jpeg';
-import labia_after1 from './labia_after1.jpeg';
-import labia_before2 from './labia_before2.jpeg';
-import labia_after2 from './labia_after2.jpeg';
-import labia_before3 from './labia_before3.jpeg';
-import labia_after3 from './labia_after3.jpeg';
-import labia_before4 from './labia_before4.jpeg';
-import labia_after4 from './labia_after4.jpeg';
-import labia_before5 from './labia_before5.jpeg';
-import labia_after5 from './labia_after5.jpeg';
-import labia_before6 from './labia_before6.jpeg';
-import labia_after6 from './labia_after6.jpeg';
-import labia_before7 from './labia_before7.jpeg';
-import labia_after7 from './labia_after7.jpeg';
-import thermi_before1 from './thermi_before1.jpeg';
-import thermi_after1 from './thermi_after1.jpeg';
-import thermi_before2 from './thermi_before2.jpeg';
-import thermi_after2 from './thermi_after2.jpg';
-import thermi_before3 from './thermi_before3.jpg';
-import thermi_after3 from './thermi_after3.jpg';
-import thermi_before4 from './thermi_before4.jpg';
-import thermi_after4 from './thermi_after4.jpg';
-import thermi_before5 from './thermi_before5.jpeg';
-import thermi_after5 from './thermi_after5.jpeg';
-import thermi_before6 from './thermi_before6.jpeg';
-import thermi_after6 from './thermi_after6.jpeg';
-import thermi_before7 from './thermi_before7.jpeg';
-import thermi_after7 from './thermi_after7.jpeg';
-import sherif_hands from './sherif_hands.jpeg';
-import sherif_comp from './sherif_comp.jpeg';
-import sherif_standing from './sherif_standing.jpeg';
-import sherif_bg_mobile from './sherif_bg_mobile.jpeg';
 import clinic_bg from './clinic_bg.jpeg';
 import clinic_hallway from './clinic_hallway.jpeg';
 import clinic_reception from './clinic_reception.jpeg';
@@ -206,12 +141,23 @@ import sherif_bg from './sherif_bg.jpeg';
 import sherif_consultation from './sherif_consultation.jpeg';
 import sherif_new from './sherif_new.jpeg';
 import sherif_plan from './sherif_plan.jpeg';
+import pshot_before2 from './pshot_before2.jpg';
+import pshot_after2 from './pshot_after2.jpeg';
+import pshot_before3 from './pshot_before3.jpeg';
+import pshot_after3 from './pshot_after3.jpeg';
+import pshot_before4 from './pshot_before4.jpeg';
+import pshot_after4 from './pshot_after4.jpeg';
+import sherif_hands from './sherif_hands.jpeg';
+import sherif_comp from './sherif_comp.jpeg';
+import sherif_standing from './sherif_standing.jpeg';
+import sherif_bg_mobile from './sherif_bg_mobile.jpeg';
+import endo from './endo.jpeg';
 import channel4 from './channel4.png';
 import award6 from './award6.png';
+import size from './size.png';
+import penis_shape from './penis_shape.png';
 
 
-
-import oshot_logo from './oshot_logo.svg';
 
 
 export {
@@ -258,8 +204,8 @@ export {
     icon1,
     icon2,
     icon3,
-    // BloodCells,
-    // wow1,
+    BloodCells,
+    wow1,
     wow2,
     wow3,
     wow4,
@@ -349,80 +295,27 @@ export {
     ed,
     renova,
     diet,
-    oshot_logo,
-    oshot_image1,
-    oshot_image2,
-    oshot_image3,
-    oshot_image4,
-    oshot_image5,
-    oshot_image6,
-    libido,
-    oshot_before1,
-    oshot_after1,
-    oshot_before10,
-    oshot_after10,
-    oshot_before11,
-    oshot_after11,
-    oshot_before2,
-    oshot_after2,
-    oshot_before3,
-    oshot_after3,
-    oshot_before4,
-    oshot_after4,
-    oshot_before5,
-    oshot_after5,
-    oshot_before6,
-    oshot_after6,
-    oshot_before7,
-    oshot_after7,
-    oshot_before8,
-    oshot_after8,
-    oshot_before9,
-    oshot_after9,
-    thermiva,
-    size,
-    pelvic,
-    vagina,
-    labia_after1,
-    labia_after2,
-    labia_after3,
-    labia_after4,
-    labia_after5,
-    labia_after6,
-    labia_after7,
-    labia_before1,
-    labia_before2,
-    labia_before3,
-    labia_before4,
-    labia_before5,
-    labia_before6,
-    labia_before7,
-    thermi_after1,
-    thermi_after2,
-    thermi_after3,
-    thermi_after4,
-    thermi_after5,
-    thermi_after6,
-    thermi_after7,
-    thermi_before1,
-    thermi_before2,
-    thermi_before3,
-    thermi_before4,
-    thermi_before5,
-    thermi_before6,
-    thermi_before7,
-    sherif_bg,
-    sherif_bg_mobile,
-    sherif_comp,
-    sherif_consultation,
-    sherif_hands, 
-    sherif_new,
-    sherif_plan,
-    sherif_standing,
     clinic_bg,
     clinic_hallway,
     clinic_reception,
     clinic_room,
+    sherif_bg, 
+    sherif_consultation,
+    sherif_new,
+    sherif_plan,
+    pshot_before2,
+    pshot_after2,
+    pshot_before3,
+    pshot_after3,
+    pshot_before4,
+    pshot_after4,
+    sherif_comp,
+    sherif_hands,
+    sherif_standing,
+    sherif_bg_mobile,
+    endo,
     channel4,
     award6,
+    size,
+    penis_shape,
 };

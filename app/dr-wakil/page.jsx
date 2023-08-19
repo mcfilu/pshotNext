@@ -9,24 +9,17 @@ import WakilSummary from '../components/WakilSummary'
 
 import WakilDetails from './WakilDetails'
 import WakilOpening from './WakilOpening'
-import WakilClinic from './WakilClinic'
 import WakilImage from './WakilImage'
 import WakilPreOpening from './WakilPreOpening'
-// import Alberto from '../components/Alberto'
-// import Davood from '../components/Davood'
 
-
-
-
-
-
-
-
+export const metadata = {
+    title: 'Dr. Sherif Wakil | Best Sexual Aesthetics Doctor in UK',
+    description : 'Dr. Sherif Wakil and his team of Sexual Aesthetics Doctor are committed to providing you with the highest quality of ED . Call us today at +44 (0)20 3006 8459.',
+  }
 
 const DrWakil = () => {
   return (
     <div className={`bg-primary w-full`}>
-        
 
         <div className={`fixed z-10 `}>
             <Navbar/>
