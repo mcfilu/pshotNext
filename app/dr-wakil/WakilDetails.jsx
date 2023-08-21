@@ -15,7 +15,7 @@ const WakilDetails = () => {
         <div className={`hidden md:flex w-[40%] flex items-center relative`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
             {/* <video src={augmentation_vid} autoPlay loop muted className={`object-cover h-[100%]`}></video> */}
-            <Image src={sherif_standing} object-fit="cover" fill={true} href="Image of the Dr Sherif Wakil in his office in London." className={`w-full h-full object-cover`}></Image>
+            <Image src={sherif_standing} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
         </div>
         <div className={`hidden md:flex w-[60%] h-[100%] p-[1vh] flex flex-col items-left justify-between ml-[1.5vh]`}>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto`}>
@@ -50,7 +50,7 @@ const WakilDetails = () => {
             {/* <video ref={videoRef} src={augmentation_vid} autoPlay loop muted playsInline className={`w-[100%]`}></video> */}
             {/* <Image src={sherif_standing} object-fit="cover" fill={true} className={`w-full h-full object-cover`}></Image> */}
             <div className={`flex w-full h-[50vh] relative`}>
-            <Image  object-fit="contain" fill={true} src={sherif_standing}></Image>
+            <Image  objectFit="cover" objectPosition="center" fill="true" alt="" src={sherif_standing}></Image>
             </div>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             

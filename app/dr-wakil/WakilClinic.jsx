@@ -32,14 +32,14 @@ const WakilClinic = () => {
         </div>
         <div className={`hidden md:flex w-1/2 flex items-center`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <Image className={`flex w-full h-full object-cover `} object-fit="cover" fill={true} src={clinic2}></Image>
+            <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={clinic2}></Image>
         </div>
 
         <div className={`md:hidden flex flex-col items-center `}>
             <p className={`flex text-gold text-[6vh] text-center text-gold1 font-header`}>Dr SW Clinics</p>
             {/* <Image className={`w-full h-full object-cover `} object-fit="cover" fill={true} src={clinic2}></Image> */}
             <div className={`flex w-full h-[30vh] relative`}>
-            <Image  object-fit="cover" fill={true} src={clinic2}></Image>
+            <Image  objectFit="cover" objectPosition="center" fill="true" alt="" src={clinic2}></Image>
             </div>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             

@@ -34,13 +34,13 @@ const ContactAftercare = () => {
         </div>
         <div className={`hidden md:flex w-[40%] flex items-center relative`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <Image className={`flex w-full h-full object-cover`} object-fit="cover" fill={true} src="/clinic_hallway.jpeg"></Image>
+            <Image objectFit="cover" objectPosition="center" fill="true" alt="" src="/clinic_hallway.jpeg"></Image>
         </div>
 
         <div className={`md:hidden flex flex-col items-center relative`}>
             <p className={`flex text-gold text-[6vh] text-center text-gold1 font-header`}>Aftercare</p>
             <div className={`flex w-full h-[50vh] relative`}>
-            <Image  object-fit="contain" fill={true} src="/clinic_hallway.jpeg"></Image>
+            <Image  objectFit="cover" objectPosition="center" fill="true" alt="" src="/clinic_hallway.jpeg"></Image>
             </div>
             {/* <Image className={`w-full h-full object-cover `} object-fit="contain" fill={true} src="/clinic_hallway.jpeg"></Image> */}
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>

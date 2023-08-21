@@ -8,7 +8,7 @@ const ContactTreatment = () => {
     <div className={`flex w-full flex-row min-h-[60vh]  md:pr-[0px] md:p-[2vh] `}>
         <div className={`hidden md:flex w-[45%] flex items-center relative`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <Image className={`flex w-full h-full object-cover `} object-fit="cover" fill={true} src={clinic_room}></Image>
+            <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={clinic_room}></Image>
         </div>
         <div className={`hidden md:flex w-[55%] h-[100%]  px-[2vh] flex flex-col items-left justify-between `}>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto`}>
@@ -39,7 +39,7 @@ const ContactTreatment = () => {
         <div className={`md:hidden flex flex-col items-center `}>
             <p className={`flex text-gold text-[6vh] text-center text-gold1 font-header`}>Treatment</p>
             <div className={`flex w-full h-[30vh] relative`}>
-            <Image  object-fit="cover" fill={true} src={clinic_room}></Image>
+            <Image  objectFit="cover" objectPosition="center" fill="true" alt="" src={clinic_room}></Image>
             </div>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             

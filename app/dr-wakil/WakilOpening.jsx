@@ -8,7 +8,7 @@ const WakilOpening = () => {
     <div className={`flex w-full flex-row md:min-h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
         <div className={`hidden md:flex w-[45%]  flex items-center relative`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <Image className={`w-full h-full object-cover `} src={sherif_hands} href="Dr Sherif Wakil opening image in his office in London" object-fit="cover" fill={true}></Image>
+            <Image  src={sherif_hands} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
         </div>
         <div className={`hidden md:flex w-[55%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
             <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
@@ -30,7 +30,7 @@ const WakilOpening = () => {
         <p className={`flex text-[4.5vh] text-gold1 mt-[2vh] font-header`}>Dr. Sherif Wakil</p>
             {/* <Image className={`w-full h-full object-cover `} src={sherif_hands} href="Dr Sherif Wakil opening image in his office in London" object-fit="cover" fill={true}></Image> */}
             <div className={`flex w-full h-[30vh] relative`}>
-            <Image  object-fit="cover" fill={true} src={sherif_hands}></Image>
+            <Image  objectFit="cover" objectPosition="center" fill="true" alt="" src={sherif_hands}></Image>
             </div>
             
             {/* <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-left text-[4vh] mt-[1vh]`}></i> */}
