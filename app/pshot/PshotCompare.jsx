@@ -73,8 +73,8 @@ const PshotCompare = () => {
                 <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={pshot_before2} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={pshot_after2} srcSet={pshot_after2} alt="Image two" />}
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={pshot_before2.src} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={pshot_after2.src} srcSet={pshot_after2.src} alt="Image two" />}
                         />
                     </div>
                     
