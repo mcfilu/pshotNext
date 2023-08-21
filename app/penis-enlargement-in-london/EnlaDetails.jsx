@@ -41,7 +41,7 @@ const BreastLiftDetails = () => {
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
             {/* <video src={fat_cells} autoPlay loop muted playsInline className={`w-[100%]`} ></video> */}
-            <video src="/fat_cells.mp4" autoPlay loop muted className={` object-cover h-[100%]`}></video>
+            <video src="/fat_cells.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>The O Concept™ understands that every man's sexual wellness needs are unique. That's why we offer a tailored and specialized combination of sexual aesthetic treatments to address male sexual dysfunction effectively.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The decision to enhance and enlarge your penis is a personal one. With the use of soft tissue fillers, we provide a long-lasting solution without the potential risks associated with permanent fillers or implants. Our approach ensures a safe and non-invasive experience.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The soft tissue or dermal fillers we use are based on hyaluronic acid (HA), a natural substance produced by the body. HA acts as an internal moisturizer, offering hydration and plumpness to all layers of skin tissue. By injecting a thick, synthetic hyaluronic acid gel into the penis, we can achieve immediate augmentation of the shaft's girth. This also enhances hydration, resulting in a plumper appearance in both flaccid and erect states.</p>
