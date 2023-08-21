@@ -22,7 +22,7 @@ const ContactPersonalised = () => {
 
         <div className={`md:hidden flex flex-col items-center `}>
             <p className={`flex text-gold text-[6vh] text-center text-gold1 font-header`}>Personalised Treatment Plan</p>
-            <div className={`flex w-full h-[30vh] relative`}>
+            <div className={`flex w-full h-[35vh] relative`}>
             <Image  objectFit="cover" objectPosition="center" fill="true" src="/sherif_plan.jpeg" alt=""></Image>
             </div>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
