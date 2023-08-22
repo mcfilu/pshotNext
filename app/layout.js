@@ -15,6 +15,9 @@ export const metadata = {
     default: 'P-Shot Penis PRP Rejuvanation in London by Dr Sherif Wakil',
     template: '%s',
   },
+  verification: {
+    google: 'Y5SI3hubGdqmxY2Y9X7jnW_vTejLeoqZNXFdU6Gp1ig',
+  },
 }
 
 export default function RootLayout({ children }) {
