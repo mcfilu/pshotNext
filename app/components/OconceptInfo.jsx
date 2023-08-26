@@ -13,7 +13,9 @@ const OconceptInfo = () => {
             <p className={`text-white font-poppins text-[2.1vh] text-justify mt-[3vh] mb-[2vh] font-main`}>The O Concept™ offers a bespoke treatment plan for erectile dysfunction, premature ejaculation, or Peyronie's disease. Tailored to each patient's specific condition, it ensures optimal results. What sets it apart is the unique combination of treatments in a precise order and intervals, addressing individual needs.</p>
             <p className={`text-white font-poppins text-[2.1vh] text-justify mt-[3vh] mb-[2vh] font-main`}>Dr. Sherif Wakil, renowned as a leading expert in Sexual Aesthetics, has received numerous national and global awards for his groundbreaking work in sexual and penis rehabilitation. With his expertise and the title of "God Father of Sexual Aesthetics," patients can trust in his exceptional knowledge and experience.</p>
             
-            <Link href="/o-concept-treatment-in-london"><button className={` text-[3vh] px-[2vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh]  md:mt-[2vh]`}>Read More</button></Link>
+            <Link href="/o-concept-treatment-in-london"><button className={` text-[3vh] px-[2vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh]  md:mt-[2vh]`}>Check O-Concept Details</button></Link>
+
+              
         </div>
         
 
@@ -24,7 +26,7 @@ const OconceptInfo = () => {
       <p className={`text-white font-poppins text-[2.1vh] text-left pl-[1vh] mt-[3vh] mb-[2vh] font-main`}>The O Concept™ offers a bespoke treatment plan for erectile dysfunction, premature ejaculation, or Peyronie's disease. Tailored to each patient's specific condition, it ensures optimal results. What sets it apart is the unique combination of treatments in a precise order and intervals, addressing individual needs.</p>
       <p className={`text-white font-poppins text-[2.1vh] text-left pl-[1vh] mt-[3vh] mb-[2vh] font-main`}>Dr. Sherif Wakil, renowned as a leading expert in Sexual Aesthetics, has received numerous national and global awards for his groundbreaking work in sexual and penis rehabilitation. With his expertise and the title of "God Father of Sexual Aesthetics," patients can trust in his exceptional knowledge and experience.</p>
             
-            <Link href="/o-concept-treatment-in-london"><button className={` text-[3vh] px-[2vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh]  md:mt-[2vh]`}>Read More</button></Link>
+            <Link href="/o-concept-treatment-in-london"><button className={` text-[3vh] px-[2vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh]  md:mt-[2vh]`}>Check O-Concept Details</button></Link>
       </div>
     
     </div>
