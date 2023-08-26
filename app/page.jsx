@@ -1,4 +1,6 @@
 import React from 'react'
+import dynamic from 'next/dynamic'
+const OconceptInfo = dynamic(() => import ('./components/OconceptInfo'))
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import BookNow from './components/BookNow'
@@ -8,12 +10,13 @@ import YoutubeTestimonials from './components/YoutubeTestimonials'
 import WakilSummary from './components/WakilSummary'
 import TrustPilotSlider from './components/TrustPilotSlider'
 import FooterBook from './components/FooterBook'
-import OconceptInfo from './components/OconceptInfo'
+
 import OtherServices from './components/OtherServices'
 
+const PshotDetails = dynamic(() => import('./pshot/PshotDetails'))
 import PshotBenefits from './pshot/PshotBenefits'
 import PshotCompare from './pshot/PshotCompare'
-import PshotDetails from './pshot/PshotDetails'
+// import PshotDetails from './pshot/PshotDetails'
 import PshotFaqs from './pshot/PshotFaqs'
 import PshotImage from './pshot/PshotImage'
 import PshotOpening from './pshot/PshotOpening'

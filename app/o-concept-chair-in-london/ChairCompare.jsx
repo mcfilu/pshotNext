@@ -1,5 +1,6 @@
 'use client'
 import React, {useState} from 'react'
+import Image from 'next/image';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import { boobs1Before, boobs1After, boobs2Before, boobs2After, boobs3Before, boobs3After, boobs4Before, boobs4After, pshot1before, pshot1after} from '../assets';
 

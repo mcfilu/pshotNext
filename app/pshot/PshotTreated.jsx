@@ -22,7 +22,7 @@ const PshotTreated = () => {
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
             <div className={`flex h-[15vh] w-[25vw] md:w-[10vw] relative`}>
-            <Image src={erectile} className={`w-full h-full object-contain`} object-fit="cover" fill={true} alt=""></Image>
+            <Image src={erectile} className={`w-full h-full object-contain`} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
             </div>
             
             <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Erectile Dysfanction</h1>
@@ -38,7 +38,7 @@ const PshotTreated = () => {
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
             <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw] relative`}>
-            <Image src={ejaculation} className={`w-full h-full object-contain`} object-fit="cover" fill={true} alt=""></Image>
+            <Image src={ejaculation} className={`w-full h-full object-contain`} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
             </div>
             
             <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Premature Ejaculation</h1>
@@ -54,7 +54,7 @@ const PshotTreated = () => {
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
             <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw] relative`}>
-            <Image src={size} className={`w-full h-full object-contain`} object-fit="cover" fill={true} alt=""></Image>
+            <Image src={size} className={`w-full h-full object-contain`} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
             </div>
             
             <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Penis Size and Shape</h1>

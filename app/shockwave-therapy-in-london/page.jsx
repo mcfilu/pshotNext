@@ -1,4 +1,6 @@
 import React from 'react'
+import dynamic from 'next/dynamic'
+const OconceptInfo = dynamic(() => import ('../components/OconceptInfo'))
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import BookNow from '../components/BookNow'
@@ -8,11 +10,11 @@ import YoutubeTestimonials from '../components/YoutubeTestimonials'
 import WakilSummary from '../components/WakilSummary'
 import TrustPilotSlider from '../components/TrustPilotSlider'
 import FooterBook from '../components/FooterBook'
-import OconceptInfo from '../components/OconceptInfo'
 
+const ShockDetails = dynamic(() => import('./ShockDetails'))
 import ShockBenefits from './ShockBenefits'
 import ShockCompare from './ShockCompare'
-import ShockDetails from './ShockDetails'
+// import ShockDetails from './ShockDetails'
 import ShockFaqs from './ShockFaqs'
 import ShockImage from './ShockImage'
 import ShockOpening from './ShockOpening'

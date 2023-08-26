@@ -27,13 +27,15 @@ const OconceptDetails = () => {
         </div>
 
         <div className={`hidden md:flex w-[40%] h-[100%] flex items-center`}>
-        <video src={"/o-concept-animation.mp4"} autoPlay loop muted className={` object-cover  w-[100%]`}></video>
+        <video src="/o-concept-animation.webm" autoPlay loop muted className={` object-contain w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
             </div>
         
 
         <div className={`flex flex-col md:hidden items-center`}>
-        <video src={"/o-concept-animation.mp4"} autoPlay loop muted playsInline className={` object-cover h-[100%] w-[100%]`}></video>
+        <div className={`flex w-full h-[35vh]`}>
+                <video src="/o-concept-animation.webm" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
+            </div>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
         
              {/* <video ref={videoRef} src={o_concept_animation} autoPlay loop muted playsInline webkit-playsInline className={`w-[100%]`}></video> */}

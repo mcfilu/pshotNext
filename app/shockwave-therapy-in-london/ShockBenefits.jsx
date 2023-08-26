@@ -8,7 +8,7 @@ const ShockBenefits = () => {
     <div className={`flex w-full flex-row  md:min-h-[55vh]   `}>
         <div className={`hidden md:flex w-[45%]  flex  relative`}>
             {/* <video src={breastliftvideo} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
-            <Image src={benefits2} className={`w-full h-full object-cover`} object-fit="cover" fill={true} alt=""></Image>
+            <Image src={benefits2} className={`w-full h-full object-cover`} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
         </div>
         <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh]  items-center`}>
             <h1 className={`text-gold1 text-[5vh] text-center font-header`}>O-Concept Shockwave Benefits</h1>
@@ -29,7 +29,7 @@ const ShockBenefits = () => {
       <h1 className={`text-gold1 text-[5vh] text-center font-header`}>O-Concept Shockwave Benefits</h1>
       {/* <video src={boobs10} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
       <div className={`flex w-full h-[30vh] relative`}> 
-        <Image src={benefits2} className={`w-full h-full object-cover `} object-fit="cover" fill={true} alt=""></Image>
+        <Image src={benefits2} className={`w-full h-full object-cover `} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
       </div>
       <p className={`text-white font-poppins text-[2.1vh] text-left pl-[1vh] mt-[3vh] mb-[2vh] font-main`}>O Concept Shockwave Therapy is a revolutionary approach that can greatly improve men's sexual health by enhancing blood flow and promoting tissue regeneration. This therapy offers a range of potential benefits, including:</p>
             <ul className={`text-white text-[2.1vh] font-poppins pl-[1vh]`}>

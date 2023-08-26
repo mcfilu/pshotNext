@@ -37,13 +37,15 @@ Experience the transformative O Concept™ protocol designed to restore your con
                 /></p> */}
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-        <video src="/blood_cells.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+        <video src="/blood_cells_desktop.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/blood_cells.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
+            <div className={`flex w-full h-[35vh]`}>
+                <video src="/blood_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
+            </div>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>
 Experience the transformative O Concept™ protocol designed to restore your confidence and enhance your sexual enjoyment. With a personalized approach that combines revolutionary techniques and advanced technologies, we address your unique concerns. One highly effective treatment for erectile dysfunction is the O Concept™ Extracorporeal Shockwave Therapy.
 

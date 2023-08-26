@@ -1,4 +1,5 @@
 import React from 'react'
+import dynamic from 'next/dynamic'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import BookNow from '../components/BookNow'
@@ -7,12 +8,13 @@ import Media from '../components/Media'
 import WakilSummary from '../components/WakilSummary'
 import FooterBook from '../components/FooterBook'
 
+const OconceptDetails = dynamic(() => import('./OconceptDetails'))
 import OConceptTestimonials from './OConceptTestimonials'
 import OconceptImage from './OconceptImage'
 import OconceptServices from './OconceptServices'
 import OconceptOpening from './OconceptOpening'
 import OconceptVideo from './OconceptVideo'
-import OconceptDetails from './OconceptDetails'
+// import OconceptDetails from './OconceptDetails'
 
 export const metadata = {
   title: 'O Concept Treatment in London | P-Shot',

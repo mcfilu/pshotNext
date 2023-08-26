@@ -7,7 +7,7 @@ const OconceptOpening = () => {
     <div className={`flex w-full flex-row md:min-h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center relative`}>
             {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <Image className={`w-screen h-screen object-cover`} fill={true} object-fit="cover" src="/sherif_new.jpeg" alt=""></Image>
+            <Image className={`w-screen h-screen object-cover`} objectFit="cover" objectPosition="center" fill="true" alt="" src="/sherif_new.jpeg"></Image>
         </div>
         <div className={`hidden md:flex w-[55%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
             <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
@@ -38,7 +38,7 @@ const OconceptOpening = () => {
         <div className={`md:hidden flex flex-col w-full items-center`}>
         <p className={`flex text-[4.5vh] font-header text-gold1 mt-[2vh]`}>Dr. Sherif Wakil</p>
             <div className={`flex w-full h-[30vh] relative`}>
-                <Image  object-fit="cover" fill={true} src="/sherif_new.jpeg" alt=""></Image>
+                <Image  objectFit="cover" objectPosition="center" fill="true" alt="" src="/sherif_new.jpeg" ></Image>
             </div>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>

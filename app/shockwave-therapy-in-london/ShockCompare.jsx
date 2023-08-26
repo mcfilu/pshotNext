@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import shock_after1 from '../../public/shock_after1.png';
 import shock_before1 from '../../public/shock_before1.png';
+import Image from 'next/image';
 // import { shock_after1, shock_before1 } from '../assets';
 
 const ShockCompare = () => {
@@ -75,9 +76,13 @@ const ShockCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov1 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={shock_before1.src} alt=""></img>
+                    <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={shock_before1}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={shock_after1.src} alt=""></img>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={shock_after1}></Image>
+                    </div>
                 </div>
             </div>
 

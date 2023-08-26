@@ -5,7 +5,7 @@ import Image from 'next/image';
 const PshotImage = () => {
   return (
     <div className={`flex w-full h-screen relative`}>
-        <Image className={`w-screen h-screen object-cover`} src={pshot1} object-fit="cover" fill={true} alt=""></Image>
+        <Image className={`w-screen h-screen object-cover`} src={pshot1}  objectFit="cover" objectPosition="center" fill="true" alt="" priority></Image>
         <div className={`absolute left-[1.5vw] top-[28%] md:w-[45%]`}>
         {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}
                     {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}

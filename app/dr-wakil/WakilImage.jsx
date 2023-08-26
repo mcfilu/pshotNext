@@ -8,8 +8,8 @@ const WakilImage = () => {
   return (
     
     <div className={`flex w-full h-screen relative`}>
-    <Image className={`hidden md:flex w-screen h-screen object-cover`} src={sherif_bg } href="Dr Sherif Wakil opening image in his office in London" object-fit="cover" fill={true}></Image>
-    <Image className={`md:hidden w-screen h-screen object-cover`} src={sherif_bg_mobile } href="Dr Sherif Wakil opening image in his office in London" object-fit="cover" fill={true}></Image>
+    <Image className={`hidden md:flex w-screen h-screen object-cover`} src={sherif_bg }  objectFit="cover" objectPosition="center" fill="true" alt="" priority></Image>
+    <Image className={`md:hidden w-screen h-screen object-cover`} src={sherif_bg_mobile }  objectFit="cover" objectPosition="center" fill="true" alt="" priority></Image>
     <div className={`absolute left-[1.5vw] top-[28%] md:w-[45%]`}>
     {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}
     <p className={`text-white text-[3vh] font-main md:mt-[10vh]`}>World-Renown Specialist</p>
