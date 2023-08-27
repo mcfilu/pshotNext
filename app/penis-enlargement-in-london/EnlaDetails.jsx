@@ -34,7 +34,7 @@ const BreastLiftDetails = () => {
                 /></p> */}
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-        <video src="/blood_cells_desktop.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+        <video src="/fat_cells_desktop.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
@@ -42,7 +42,7 @@ const BreastLiftDetails = () => {
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
             {/* <video src={fat_cells} autoPlay loop muted playsInline className={`w-[100%]`} ></video> */}
             <div className={`flex w-full h-[35vh]`}>
-                <video src="/blood_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
+                <video src="/fat_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
             </div>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>The O Concept™ understands that every man's sexual wellness needs are unique. That's why we offer a tailored and specialized combination of sexual aesthetic treatments to address male sexual dysfunction effectively.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The decision to enhance and enlarge your penis is a personal one. With the use of soft tissue fillers, we provide a long-lasting solution without the potential risks associated with permanent fillers or implants. Our approach ensures a safe and non-invasive experience.</p>
