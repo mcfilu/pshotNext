@@ -19,7 +19,7 @@ function ShockSummary() {
                         </div>
                         <p className="text-[1.9vh] font-light font-main">Procedure Time</p>
                         {/* <span className="text-[2vh] font-light">Approx 40mins</span> */}
-                        <h4 className="text-[2.5vh] font-medium mt-[1vh] font-main">Aproximately 20 minutes</h4>
+                        <p className="text-[2.5vh] font-medium mt-[1vh] font-main">Aproximately 20 minutes</p>
                         
                     </div>
 
@@ -29,7 +29,7 @@ function ShockSummary() {
                         </div>
                         <p className="text-[1.9vh] font-light font-main">Recommended No. of Treatments</p>
                         {/* <span className="text-[2vh] font-light"></span> */}
-                        <h4 className="text-[2.5vh] font-medium mt-[1vh] font-main">6 or 12 weekly sessions</h4>
+                        <p className="text-[2.5vh] font-medium mt-[1vh] font-main">6 or 12 weekly sessions</p>
                         
                     </div>
 
@@ -39,7 +39,7 @@ function ShockSummary() {
                         </div>
                         <p className="text-[1.9vh] font-light font-main">Anaesthetic</p>
                         {/* <span className="text-[2vh] font-light"></span> */}
-                        <h4 className="text-[2.5vh] font-medium mt-[1vh] font-main">None</h4>
+                        <p className="text-[2.5vh] font-medium mt-[1vh] font-main">None</p>
                         
                     </div>
                 </div>
@@ -85,9 +85,9 @@ with the most significant changes around 1 month after the last session.
                 
             </div>
             <div  className={`md:absolute bg-gold1 bg-opacity-100  ease-in-out duration-500 bg-opacity-100 top-[22%] -right-[17.5vw] md:w-[24vw]   p-[2vh] mt-[5vh] md:mt-[0px] bg-opacity-100 shadow-[0px_0px_20px_2px_#ad9444] ease-in-out duration-500`}>
-                    <h2 className={` text-black text-[4vh] mt-[2vh] font-header font-medium`}>Treatment Cost</h2>
+                    <p className={` text-black text-[4vh] mt-[2vh] font-header font-medium`}>Treatment Cost</p>
                     <p className={`font-main text-black text-[2vh] mt-[2vh]`}>Price from:</p>
-                    <h2 className={`font-main text-black font-bold text-[5.5vh] `}>£ 500</h2>
+                    <p className={`font-main text-black font-bold text-[5.5vh] `}>£ 500</p>
                     <p className={`text-[1.6vh] text-black font-main`}>* After consultation the doctor will confirm the cost.</p>
                     <Link href="/book-now"><button className={`bg-black text-gold1 text-[4vh] md:text-[2.5vh] mt-[4vh] p-[1vh] font-main`}>Book Now</button></Link>
                 </div>
