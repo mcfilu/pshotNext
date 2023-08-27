@@ -56,7 +56,7 @@ const YoutubeTestimonials = () => {
   
     <div className={`flex flex-col p-[2vh]  w-full `}>
       
-        <h1 className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</h1>
+        <h2 className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</h2>
         
       <div className=" w-[95%] mx-auto my-auto overflow-hidden">
       <Slider {...settings}>
@@ -73,7 +73,7 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>Dr. Wakil revolutionised my sexual life and relationship with my wife in just 8 weeks.</p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>HAROLD</h1>
+                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>HAROLD</h2>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>67 Years Old, UK</h3>
               </div>
             </div>
@@ -94,7 +94,7 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>The O Concept™ is the best solution out there</p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>DAVE</h1>
+                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>DAVE</h2>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>29 Years Old, UK</h3>
               </div>
             </div>
@@ -113,7 +113,7 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>Wow, what can I say? Fantastic! </p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>KARIM</h1>
+                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>KARIM</h2>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>62 Years Old, UK</h3>
               </div>
             </div>
@@ -132,7 +132,7 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>My sexual life is so much better</p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>MIKE</h1>
+                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>MIKE</h2>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>57 Years Old, UK</h3>
               </div>
             </div>

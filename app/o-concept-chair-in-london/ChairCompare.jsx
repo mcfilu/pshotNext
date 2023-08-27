@@ -22,10 +22,10 @@ const ChairCompare = () => {
   return (
     <div className={`bg-black bg-opacity-70 py-[2vh] w-3/4 rounded-[9px] ml-[4%] mr-[4%] hover:bg-opacity-80 hover:shadow-[0px_0px_50px_10px_#744210] hover:ease-in-out duration-500 `}>
         <div className={`w-full flex flex-col justify-center items-center `}>
-            <h1 className={`text-gold1 font-poppins text-center text-[4vh] mb-[1vh]`}>Treatment Effects</h1>
+            <h2 className={`text-gold1 font-poppins text-center text-[4vh] mb-[1vh]`}>Treatment Effects</h2>
             <div className={`flex flex-row justify-between w-[39%] mx-auto`}>
-                <h1 className={`text-[3vh] text-gold1`}>Before</h1>
-                <h1 className={`text-[3vh] text-gold1`}>After</h1>
+                <h2 className={`text-[3vh] text-gold1`}>Before</h2>
+                <h2 className={`text-[3vh] text-gold1`}>After</h2>
             </div>
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-[50vw] h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
