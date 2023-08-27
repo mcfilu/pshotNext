@@ -83,14 +83,14 @@ const enlaCompare = () => {
                 <h2 className={`text-[3.5vh] text-white font-main`}>Before</h2>
                 <h2 className={`text-[3.5vh] text-white font-main`}>After</h2>
             </div>
-            <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before1}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after1}></Image>
                                     </div>}  
                         />
@@ -98,23 +98,23 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov1 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before1}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after1}></Image>
                     </div>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before2}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after2}></Image>
                                     </div>}  
                         />
@@ -122,23 +122,23 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov2 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before2}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after2}></Image>
                     </div>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov3 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before3}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after3}></Image>
                                     </div>}  
                         />
@@ -146,23 +146,23 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov3 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before3}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after3}></Image>
                     </div>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov4 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before4}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after4}></Image>
                                     </div>}  
                         />
@@ -170,23 +170,23 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov4 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before4}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after4}></Image>
                     </div>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov5(true)} onMouseLeave={() => {setHov5(false)}} className={`${vis5 ? '' : 'hidden'} flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov5(true)} onMouseLeave={() => {setHov5(false)}} className={`${vis5 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov5 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before5}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after5}></Image>
                                     </div>}  
                         />
@@ -194,23 +194,23 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov5 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before5}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after5}></Image>
                     </div>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov6(true)} onMouseLeave={() => {setHov6(false)}} className={`${vis6 ? '' : 'hidden'} flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov6(true)} onMouseLeave={() => {setHov6(false)}} className={`${vis6 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov6 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before6}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after6}></Image>
                                     </div>}  
                         />
@@ -218,23 +218,23 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov6 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before6}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after6}></Image>
                     </div>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov7(true)} onMouseLeave={() => {setHov7(false)}} className={`${vis7 ? '' : 'hidden'} flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov7(true)} onMouseLeave={() => {setHov7(false)}} className={`${vis7 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov7 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before7}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after7}></Image>
                                     </div>}  
                         />
@@ -242,23 +242,23 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov7 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before7}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after7}></Image>
                     </div>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov8(true)} onMouseLeave={() => {setHov8(false)}} className={`${vis8 ? '' : 'hidden'} flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov8(true)} onMouseLeave={() => {setHov8(false)}} className={`${vis8 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov8 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before8}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after8}></Image>
                                     </div>}  
                         />
@@ -266,23 +266,23 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov8 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before8}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after8}></Image>
                     </div>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov9(true)} onMouseLeave={() => {setHov9(false)}} className={`${vis9 ? '' : 'hidden'} flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov9(true)} onMouseLeave={() => {setHov9(false)}} className={`${vis9 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov9 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before9}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after9}></Image>
                                     </div>}  
                         />
@@ -290,23 +290,23 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov9 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before9}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after9}></Image>
                     </div>
                 </div>
             </div>
-            <div onMouseEnter={() => setHov10(true)} onMouseLeave={() => {setHov10(false)}} className={`${vis10 ? '' : 'hidden'} flex flex-row justify-between w-full h-[30vh] my-[1vh]`}>
+            <div onMouseEnter={() => setHov10(true)} onMouseLeave={() => {setHov10(false)}} className={`${vis10 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov10 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                     <ReactCompareSlider
-                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemOne={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before10}></Image>
                                     </div>}
-                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                            itemTwo={<div className={`flex w-[80vw] md:w-[15vw] h-[40vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after10}></Image>
                                     </div>}  
                         />
@@ -314,11 +314,11 @@ const enlaCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov10 ? 'hidden' : ''} ease-in-out duration-500`}>
-                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_before10}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[35%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={enla_after10}></Image>
                     </div>
                 </div>
