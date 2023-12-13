@@ -65,9 +65,9 @@ const Enla = () => {
                   <EnlaTreated/>
               </div>
               
-              <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
+              {/* <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <EnlaVideo/>
-              </div>
+              </div> */}
               
               <div className={`flex  w-full items-center mt-[7vh]`}>
                   <EnlaSummary/>
