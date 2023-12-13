@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from "react";
+import Link from "next/link";
 // import { Transition } from "@headlessui/react";
 // import { PlusIcon, MinusIcon } from "@heroicons/react/solid";
 
@@ -26,11 +27,11 @@ const PshotFaqs = () => {
                 <div className={`flex flex-col md:ml-[5%]`} onClick={() => {setSecond(!openSecond)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openSecond ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
-                        <h2 className={`${openSecond ? 'text-white' : 'text-white'} font-main text-[2.8vh]`}>Am i suitable for this treatment?</h2>
+                        <h2 className={`${openSecond ? 'text-white' : 'text-white'} font-main text-[2.8vh]`}>Am I suitable for the P-Shot®</h2>
                     </div>
                     <div className={`flex ${openSecond ? '' : 'hidden'} md:w-[40vw] mt-[2vh] mb-[1vh] ml-[5%]`}>
                         <p className={`text-white text-[2.1vh] text-justify font-main`}>
-                        As with any procedure, you will need to have a full consultation with Dr Wakil to determine whether you are suitable for treatment or not. Your medical history will be discussed, and a physical examination will be required.
+                        As with any procedure, you will need to have a <Link href="/contact-us" className="text-gold2 underline inline">full consultation</Link> with Dr Wakil to determine whether you are suitable for treatment or not. Your medical history will be discussed, and a physical examination will be required.
                         </p>
                     </div>
                 </div>
@@ -42,7 +43,7 @@ const PshotFaqs = () => {
                     </div>
                     <div className={`flex ${openThird ? '' : 'hidden'} md:w-[40vw] mt-[2vh] mb-[1vh] ml-[5%]`}>
                         <p className={`text-white text-[2.1vh] text-justify font-main`}>
-                        The procedure is performed under topical anaesthetic so there is minimal discomfort. Some patients report experiencing no pain at all.
+                        The London P-Shot® procedure is performed under topical anaesthetic so there is minimal discomfort. Some patients report experiencing no pain at all.
                         </p>
                     </div>
                 </div>
