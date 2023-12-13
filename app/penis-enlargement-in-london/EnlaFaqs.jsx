@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from "react";
+import Link from "next/link";
 // import { Transition } from "@headlessui/react";
 // import { PlusIcon, MinusIcon } from "@heroicons/react/solid";
 
@@ -26,11 +27,11 @@ const PshotFaqs = () => {
                 <div className={`flex flex-col md:ml-[5%]`} onClick={() => {setSecond(!openSecond)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openSecond ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
-                        <h2 className={`${openSecond ? 'text-white' : 'text-white'} font-main text-[2.8vh]`}>Am i suitable for this treatment?</h2>
+                        <h2 className={`${openSecond ? 'text-white' : 'text-white'} font-main text-[2.8vh]`}>Am I suitable for the London penile enlargement procedure?</h2>
                     </div>
                     <div className={`flex flex-col ${openSecond ? '' : 'hidden'} md:w-[40vw] mt-[2vh] mb-[1vh] ml-[5%]`}>
                         <p className={`text-white text-[2.1vh] text-justify font-main`}>
-                        A thorough consultation with our doctor will be required to determine if you are suitable for penis augmentation with soft tissue fillers, or if you would benefit from other O Concept™ treatments available in the clinic. The O Concept™ was devised as a bespoke, tailor-made sexual well-being solution by Dr Sherif Wakil, a pioneer of excellence in sexual aesthetics. During your consultation, our doctor will be able to recommend the safest and most effective treatment options to rebuild your sexual health.
+                        A thorough <Link href="/contact-us" className="text-gold2 underline inline">consultation</Link> with our doctor will be required to determine if you are suitable for penis augmentation with soft tissue fillers, or if you would benefit from other O Concept™ treatments available in the clinic. The O Concept™ was devised as a bespoke, tailor-made sexual well-being solution by Dr Sherif Wakil, a pioneer of excellence in sexual aesthetics. During your consultation, our doctor will be able to recommend the safest and most effective treatment options to rebuild your sexual health.
                         </p>
                         <p className={`text-white text-[2.1vh] text-justify font-main mt-[2vh]`}>
                         There are few medical reasons why some men would not be suitable for this minimally invasive treatment, but a detailed medical history will be taken.
@@ -48,7 +49,7 @@ const PshotFaqs = () => {
                         The soft tissue filler products that we use contain added local anaesthetic, in the form of lidocaine, meaning that injecting the hyaluronic acid into the shaft of the penis can be performed with minimal discomfort.
                         </p>
                         <p className={`text-white text-[2.1vh] text-justify font-main mt-[2vh]`}>
-                        The procedure can also be performed using a topical anaesthetic cream, which is applied before treatment, to aid comfort on insertion of the cannula, and where the filler product used is one without added lidocaine. Many patients find treatment to be completely pain free.
+                        The penis enlargement in London treatment can also be performed using a topical anaesthetic cream, which is applied before treatment, to aid comfort on insertion of the cannula, and where the filler product used is one without added lidocaine. Many patients find treatment to be completely pain free.
                         </p>
                     </div>
                 </div>
@@ -87,7 +88,7 @@ const PshotFaqs = () => {
                     </div>
                     <div className={`flex ${openSixth ? '' : 'hidden'} flex-col md:w-[40vw] mt-[2vh] mb-[1vh] ml-[5%]`}>
                         <p className={`text-white text-[2.1vh] text-justify font-main `}>
-                        With the use of hyaluronic acid injection, you can expect an increase in the girth or circumference of your penis of approximately 10 – 15%. With the use of more filler product we can achieved 30 – 40% increase. Careful augmentation means that the result will be natural-looking, cylindrical and aesthetically pleasing. Longer penises may require more filler product that shorter ones to achieve the desired increase in circumference.
+                        With the use of hyaluronic acid injection, you can expect an increase in the girth or circumference of your penis of approximately 10 – 15%. With the use of more filler product, the London penis enlargement treatment can achieve 30 – 40% increase. Careful augmentation means that the result will be natural-looking, cylindrical and aesthetically pleasing. Longer penises may require more
                         </p>
                         <p className={`text-white text-[2.1vh] text-justify font-main mt-[2vh]`}>
                         The addition of the hyaluronic acid can also result in a slight increase in the flaccid length of the penis.
