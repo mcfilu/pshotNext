@@ -14,7 +14,7 @@ const PshotOpening = () => {
             <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[1.3vw]`}></i>
                 <p className={`flex text-white text-[2.5vh] text-left text-gold1 mt-[2vh] font-main`}>For numerous men, the thickness or girth of their manhood truly matters. In fact, 45% of men report dissatisfaction with their penis size. This discontent can affect confidence and hinder the ability to form lasting relationships. </p>
-                <p className={`flex text-white text-[2.5vh] text-left text-gold1 mt-[2vh] font-main`}>Fortunately, there is a safe and effective solution using hyaluronic acid-based soft tissue fillers to augment the penis, providing the desired enhancement.</p>
+                <p className={`flex text-white text-[2.5vh] text-left text-gold1 mt-[2vh] font-main`}>Fortunately, our London penile enlargement treatment is a safe and effective solution. It uses hyaluronic acid-based soft tissue fillers to augment the penis, providing the desired enhancement.</p>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[5vh] md:text-[1.3vw] mt-[2vh]`}></i>
                 <p className={`flex  text-[4.5vh] text-center font-header text-gold1 mt-[5vh]`}>Dr. Sherif Wakil</p>
             </div>
@@ -44,7 +44,7 @@ const PshotOpening = () => {
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
             <p className={`flex text-white text-[2.2vh] text-left text-gold1 ml-[1vh]`}>For numerous men, the thickness or girth of their manhood truly matters. In fact, 45% of men report dissatisfaction with their penis size. This discontent can affect confidence and hinder the ability to form lasting relationships. </p>
-            <p className={`flex text-white text-[2.2vh] text-left mt-[2vh] text-gold1 ml-[1vh]`}>Fortunately, there is a safe and effective solution using hyaluronic acid-based soft tissue fillers to augment the penis, providing the desired enhancement. </p>
+            <p className={`flex text-white text-[2.2vh] text-left mt-[2vh] text-gold1 ml-[1vh]`}>Fortunately, our London penile enlargement treatment is a safe and effective solution. It uses hyaluronic acid-based soft tissue fillers to augment the penis, providing the desired enhancement.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

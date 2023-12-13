@@ -24,8 +24,8 @@ import EnlaTreated from './EnlaTreated'
 import EnlaVideo from './EnlaVideo'
 
 export const metadata = {
-  title: 'Effective Penis Enlargement in London | P-Shot',
-  description : 'Get the best penis enlargement in London from Dr. Sherif Wakil. Trusted expertise for ultimate results. Call +44 (0)20 3006 8459 for a free consultation.',
+  title: 'Penis Enlargement in London |London Penile Enlargement | P-Shot®',
+  description : 'Experience the best London penile enlargement treatment from Dr. Sherif Wakil. Call +44 (0)20 3006 8459 for a free consultation for penis enlargement in London',
 }
 
 const Enla = () => {
