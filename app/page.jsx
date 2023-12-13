@@ -25,8 +25,8 @@ import PshotTreated from './pshot/PshotTreated'
 import PshotVideo from './pshot/PshotVideo'
 
 export const metadata = {
-    title: 'Revitalize Your Intimacy with the P-Shot in London | P-Shot',
-    description : 'Revitalize your life with the best P-Shot treatment in London by Dr. Sherif Wakil. Regain confidence and call +44 (0)20 3006 8459 now. Reclaim your vitality!',
+    title: 'P-Shot® | P-Shot® London UK',
+    description : 'The best London P-Shot® for intimate revitalisation by Dr. Sherif Wakil. Take back your confidence with the Priapus Shot® - call +44 (0)20 3006 8459 today',
 }
 
 const Pshot = () => {
